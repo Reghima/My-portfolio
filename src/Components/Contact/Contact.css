@@ -1,0 +1,23 @@
+.mailbox__outerContainer {
+  background-color: #eeeeee;
+}
+.mailbox__innerContiner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 5rem 0;
+  width: 80%;
+}
+.mailbox__innerContiner img {
+  width: 30%;
+}
+.mailbox {
+  text-align: center;
+  margin-top: 2rem;
+}
+.mailbox a {
+  text-decoration: none;
+  color: #00adb5;
+  font-weight: 500;
+}

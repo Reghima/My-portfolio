@@ -1,0 +1,37 @@
+.technologies {
+  background-color: #222831;
+  clip-path: polygon(0 0, 100% 4, 100% 100%, 0 100%);
+  margin-top: -3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 3rem;
+}
+.tech__backpack {
+  width: 40%;
+}
+.packs {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.pack__section {
+  width: 30%;
+}
+.pack__section h1 {
+  color: #eeeeee;
+}
+.pack__section h1 {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.backpack {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 5rem 0;
+}
+.backpack h1 {
+  margin: 1rem 0;
+  color: #99a6b9;
+}

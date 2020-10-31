@@ -1,0 +1,22 @@
+.intro__outerContainer h1 {
+  text-align: center;
+}
+.intro__outerContainer {
+  display: flex;
+  background-color: #eeeeee;
+  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
+  padding: 7rem 5rem;
+  margin: 5rem 0 0;
+  font-size: 1.5rem;
+}
+
+.hello__img {
+  width: 30%;
+}
+.intro__innerContainer {
+  padding: 0 3rem;
+}
+
+.intro_paragraph p {
+  margin: 2rem 0;
+}

@@ -1,0 +1,18 @@
+.pack__outerContainer {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  padding: 1rem 0;
+}
+.tech__img {
+  width: 64px;
+}
+.pack__innerContainer {
+  padding-left: 1rem;
+}
+.pack__innerContainer h3 {
+  color: #eeeeee;
+}
+.pack__innerContainer p {
+  color: #99a6b9;
+}

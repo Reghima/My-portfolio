@@ -1,0 +1,41 @@
+.navbarOuterContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.personal__logo {
+  width: 100px;
+  height: 100px;
+}
+.navbarInnerContainer {
+  list-style-type: none;
+  display: flex;
+}
+.navbarInnerContainer a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0 0.5rem;
+}
+.navbarInnerContainer li :hover {
+  color: #64ffda;
+}
+
+.socials__accounts {
+  display: flex;
+  align-items: center;
+}
+.socials__accounts li {
+  list-style-type: none;
+  margin: 0.5rem;
+}
+
+.socials__accounts li svg {
+  fill: white;
+}
+.socials__accounts li :hover {
+  fill: #64ffda;
+  cursor: pointer;
+}
