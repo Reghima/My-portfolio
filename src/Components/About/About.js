@@ -1,10 +1,13 @@
 import React from "react";
-import waiting from "../../pic.jpg";
+import Navbar from "../Navbar/Navbar";
+import "./About.css";
 
 function About() {
   return (
-    <div>
-      <img src={waiting} alt='in progress' />
+    <div className='about__section'>
+      <Navbar />
+      <span>LOADING</span>
+      <div></div>
     </div>
   );
 }

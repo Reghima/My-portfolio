@@ -22,9 +22,7 @@ function Navbar() {
           <a href='/projects'>Projects</a>
         </li>
         <li>
-          <a href={Resume} target='blank'>
-            Resume
-          </a>
+          <a href='/resume'>Resume</a>
         </li>
       </ul>
       <ul className='socials__accounts'>
